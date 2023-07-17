@@ -210,16 +210,16 @@
 ######################################################################################
 
 ##################################################################################
-# 단어대체하기
-str1 = "Life is too short"
-#       01234567890123456
-#                 1
+# # 단어대체하기
+# str1 = "Life is too short"
+# #       01234567890123456
+# #                 1
 
-print(str1.replace("Life","Your leg"))
-result = str1.replace("Life","Your leg")
-print(result)
-print(str1)
+# print(str1.replace("Life","Your leg"))
+# result = str1.replace("Life","Your leg")
+# print(result)
+# print(str1)
 
-#쪼개기 (스플릿하면 결과는 리스트이다.)
-result=str1.split() #스플릿은 구분자로 나눈다. 기본값은 공백이고 구분자가 있다면 split(':') 구분자로 나눈다.
-print(result)
+# #쪼개기 (스플릿하면 결과는 리스트이다.)
+# result=str1.split() #스플릿은 구분자로 나눈다. 기본값은 공백이고 구분자가 있다면 split(':') 구분자로 나눈다.
+# print(result)
