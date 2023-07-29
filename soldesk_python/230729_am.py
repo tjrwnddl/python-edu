@@ -99,7 +99,7 @@ for cnt in range(qty): #cnt=1
     size = len(lotto)      #size는 45
     for i in range(6):      
         size -= 1            # 인덱스 0~5까지 생성
-        idx = random.randint(0,size) 인덱스는 
+        idx = random.randint(0,size) #인덱스는 
         lottoNum = lotto.pop(idx)
         print(lottoNum, end=", ")
     print()
