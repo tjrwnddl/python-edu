@@ -283,7 +283,7 @@
 import urllib.request as req # 스크래핑
 from bs4 import BeautifulSoup # 크롤링
 url = "http://www.kma.go.kr/weather/forecast/mid-term-rss3.jsp"
-data = urllib.request.urlopen(url).read()
+data = req.urlopen(url).read()
 #html = data.decode("utf-8")
 soup = BeautifulSoup(data, "html.parser")
 #### 크롤링
