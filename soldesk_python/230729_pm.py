@@ -170,6 +170,6 @@
 #     f.write("1번째에요\n")
 
 
-with open("test1.py",mode="w",encoding="UTF-8") as f:
+with open("test1.test",mode="w",encoding="UTF-8") as f:
     for i in range(1,11):
         f.write(f"{i}번째입니다.\n")
