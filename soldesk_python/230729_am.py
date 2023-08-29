@@ -93,10 +93,11 @@
 import random
 qty = int(input("수량을 입력해주세요. : ")) # 1입력
 lotto = []
-for cnt in range(qty): #cnt=1
-    for num in range(1, 45+ 1): #숫자는 1부터 45까지
-        lotto.append(num)  # 배열에 45개의 인덱스 추가
-    size = len(lotto)      #size는 45
+for cnt in range(qty): #cnt=1 로또 수량 체크
+    for num in range(1, 45+ 1): #숫자는 1이상 46미만
+        lotto.append(num)  # 45개의 리스트를 생성
+    size = len(lotto)      # size는 리스트의 길이를 나타내며 여기서는 45를 이야기함
+    #print(lotto,size)      # 로또 리스트와 그 리스트의 길이를 확인
     for i in range(6):      
         size -= 1            # 인덱스 0~5까지 생성
         idx = random.randint(0,size) #인덱스는 
